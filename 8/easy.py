@@ -22,7 +22,7 @@ def like_enumerate(some_list):
     for item in some_list:
         yield index, item
         index += 1
-tuple
+
 #like_zip
 def like_zip(*args):
     for i in range(0, len(args[0])):
