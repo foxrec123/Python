@@ -72,7 +72,7 @@ def home5(filename):
         f.close()
         return f.read()
     except:
-        return '404: There is no such file11!'
+        return '404: There is no such file!'
 
 if __name__ == '__main__':
     app.run()
